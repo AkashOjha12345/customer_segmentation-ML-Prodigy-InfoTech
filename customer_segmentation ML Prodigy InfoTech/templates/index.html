@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Segmentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Customer Segmentation</h1>
+    <p>K-Means clustering based on income & spending score</p>
+
+    <div class="card">
+        <h2>📊 Cluster Visualization</h2>
+        <img src="{{ url_for('static', filename='cluster_plot.png') }}" alt="Cluster Plot">
+    </div>
+
+    <div class="footer">
+        <p>Made by Akash 🚀</p>
+    </div>
+</div>
+
+</body>
+</html>
